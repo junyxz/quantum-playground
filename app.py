@@ -4,7 +4,7 @@ from qiskit_ibm_provider import IBMProvider
 # Instantiate IBMProvider with your API token
 provider = IBMProvider('INSERT_API_HERE')
 
-# For testing and building use simulator such as 'ibmq_qasm_simulator'
+# For testing and building use simulator such as 'ibmq_qasm_simulator's
 # In order to use an actual quantum computer selct 'ibm_nairobi'
 # Available backends:  [<IBMBackend('ibm_perth')>, <IBMBackend('ibmq_qasm_simulator')>, <IBMBackend('ibmq_quito')>, <IBMBackend('simulator_extended_stabilizer')>, <IBMBackend('simulator_mps')>, <IBMBackend('simulator_statevector')>, <IBMBackend('ibmq_manila')>, <IBMBackend('ibmq_lima')>, <IBMBackend('ibmq_belem')>, <IBMBackend('simulator_stabilizer')>, <IBMBackend('ibm_nairobi')>, <IBMBackend('ibm_lagos')>, <IBMBackend('ibmq_jakarta')>]
 # Alternatively use this command to locate computers/simulators: print("Available backends: ", provider.backends())
